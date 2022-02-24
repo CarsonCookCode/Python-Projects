@@ -12,6 +12,6 @@ class Motorcycle(Vehicle):
 # Created child class inheriting from Vehicle
 class Truck(Vehicle):
     bedLength = "0ft"
-    4WheelDrive = False
+    FourWheelDrive = False
     
     

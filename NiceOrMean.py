@@ -9,9 +9,7 @@
 #           Remember, function_name(variable) _means that we pass in the variable/
 #           return variable _means that we are returning the variable to
 #           back to the calling function.
-from colorama import init, Fore, Back, Style
 
-init(convert=True)
 
 
 def start(nice=0,mean=0,name=""):
@@ -51,13 +49,11 @@ def nice_mean(nice,mean,name):
         show_score(nice,mean,name)
         pick = input("\nA stranger approaches your for a \nconversation. Will you be nice \nor mean? (N/M) \n>>>: ").lower()
         if pick == "n":
-            print(Fore.GREEN + "\nThe stranger walks away smiling...")
-            print(Style.RESET_ALL)
+            print("\nThe stranger walks away smiling...")
             nice = (nice + 1)
             stop = False
         if pick == "m":
-            print(Fore.RED + "\nThe stranger glares at you \nmenacingly and storms off...")
-            print(Style.RESET_ALL)
+            print("\nThe stranger glares at you \nmenacingly and storms off...")
             mean = (mean + 1)
             stop = False
     score(nice,mean,name) # pass the 3 variables to the score()

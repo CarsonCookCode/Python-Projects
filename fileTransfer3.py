@@ -6,12 +6,12 @@ from tkinter import *
 from tkinter import filedialog as fd
 
 # Allows user to browse and select a source folder
-def myBrowse1():
+def browseSource():
     x = fd.askdirectory()
     v1.set(x)
 
 # Allows user to browse and select a destination folder
-def myBrowse2():
+def browseDestination():
     y = fd.askdirectory()
     v2.set(y)
 
@@ -37,8 +37,8 @@ win.geometry("450x170")
 l1 = Label(win, text = "Source Folder:", bg="lightgray")
 l2 = Label(win, text = "Destination Folder:", bg="lightgray")
 
-b1 = Button(win, text = "Browse...", width=12, command=myBrowse1)
-b2 = Button(win, text = "Browse...", width=12, command=myBrowse2)
+b1 = Button(win, text = "Browse...", width=12, command=browseSource)
+b2 = Button(win, text = "Browse...", width=12, command=browseDestination)
 b3 = Button(win, text = "Transfer Files", height=2, width=12, command=transferFiles)
 
 v1 = StringVar()

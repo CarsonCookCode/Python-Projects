@@ -2,10 +2,10 @@
 This repository contains my projects from the python course during my time at The Tech Academy.
 
 ## Projects:
-- [File Transfer](https://github.com/CarsonCookCode/Python-Projects/blob/main/fileTransfer3.py).
-- [Student Database Interface](https://github.com/CarsonCookCode/Python-Projects/tree/main/trackingFolder).
-- [Basic Django Set Up](https://github.com/CarsonCookCode/Python-Projects/tree/main/DjangoUniversity).
-- [Django Banking](https://github.com/CarsonCookCode/Python-Projects/tree/main/myDjangoProject).
+- [File Transfer](https://github.com/CarsonCookCode/Python-Projects/blob/main/fileTransfer3.py)
+- [Student Database Interface](https://github.com/CarsonCookCode/Python-Projects/tree/main/trackingFolder)
+- [Basic Django Set Up](https://github.com/CarsonCookCode/Python-Projects/tree/main/DjangoUniversity)
+- [Django Banking](https://github.com/CarsonCookCode/Python-Projects/tree/main/myDjangoProject)
 
 ### File Transfer
 This project uses python and allows the user to to transfer all text files from one folder to another if the file has been created or modified in the last 24 hours.
